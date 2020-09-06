@@ -12,7 +12,7 @@ export default function Footer() {
       </a>{" "}
       {""}
       and open-sourced on
-      <a href="#"> {""} Github</a>
+      <a href="https://github.com/pitisalcedo/weather-react"> {""} Github</a>
     </div>
   );
 }
