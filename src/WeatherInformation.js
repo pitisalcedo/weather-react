@@ -20,6 +20,7 @@ export default function WeatherInformation() {
             <img
               src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
               className="main-icon"
+              alt="partlycloudy"
             />
           </p>
         </div>
