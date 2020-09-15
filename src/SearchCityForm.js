@@ -5,12 +5,25 @@ export default function SearchCityForm() {
   return (
     <div className="searchCityForm">
       <form>
-        <input type="text" placeholder="Enter a city.." autoComplete="off" />
+        <div class="form-group w-25">
+          <input
+            class="form-control form-control-lg"
+            type="text"
+            placeholder="Search..."
+            autoComplete="off"
+          />
 
-        <button className="btn btn-outline-secondary go-button" type="submit">
-          Go
-        </button>
+          <button
+            className="btn btn-outline-secondary btn-lg go-button"
+            type="submit"
+          >
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          </button>
+        </div>
       </form>
+      <button className="currentLocationButton btn-lg">
+        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+      </button>
     </div>
   );
 }

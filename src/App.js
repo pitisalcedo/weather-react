@@ -12,7 +12,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <SearchCityForm />
-        <button className="currentLocationButton">Current Location</button>
         <Cities />
         <CurrentInformation />
         <WeatherInformation />
