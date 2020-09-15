@@ -5,7 +5,7 @@ export default function SearchCityForm() {
   return (
     <div className="searchCityForm">
       <form>
-        <div class="form-group w-25">
+        <div class="form-group w-50">
           <input
             class="form-control form-control-lg"
             type="text"

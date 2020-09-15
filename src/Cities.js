@@ -3,26 +3,32 @@ import "./App.css";
 
 export default function Cities() {
   return (
-    <div className="col col-lg-3">
-      <div className="listGroupCities list-group-flush">
+    <div className="row listGroupCities">
+      <div className="col-4">
         <button
           type="button"
           className="list-group-item list-group-item-action bg-transparent"
         >
           New York
         </button>
+      </div>
+      <div className="col-4">
         <button
           type="button"
-          className="list-group-item list-group-item-action bg-transparent l"
+          className="list-group-item list-group-item-action bg-transparent"
         >
-          San Francisco
+          Los Angeles
         </button>
+      </div>
+      <div className="col">
         <button
           type="button"
           className="list-group-item list-group-item-action bg-transparent"
         >
           Paris
         </button>
+      </div>
+      <div className="col">
         <button
           type="button"
           className="list-group-item list-group-item-action bg-transparent"

@@ -1,5 +1,5 @@
 .App {
-  max-width: 700px;
+  max-width: 600px;
   margin: 30px auto;
   padding: 40px 60px;
   border: 1px solid #888888;
@@ -13,13 +13,13 @@
 .go-button {
   position: relative;
   bottom: 30px;
-  left: 150px;
+  left: 250px;
 }
 
 .currentLocationButton {
   position: relative;
   bottom: 70px;
-  left: 190px;
+  left: 290px;
   border: 1px solid #888888;
   color: #588da8;
   transition: all 200ms ease-in-out;
@@ -31,16 +31,11 @@
 }
 
 .listGroupCities {
-  max-width: 200px;
-  position: relative;
-  top: -80px;
-  left: 450px;
-  line-height: 0.5px;
-  color: #588da8;
+  font-size: 10px;
+  margin-top: -60px;
 }
 
 .row1 {
-  margin-top: -80px;
   text-align: left;
   font-size: 22px;
   color: #588da8;
@@ -60,7 +55,7 @@ h3 {
 }
 
 .row2 {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .currentDegrees {
