@@ -69,6 +69,11 @@ h3 {
   left: 5px;
 }
 
+img {
+  position: relative;
+  left: 20px;
+}
+
 .list-group-information {
   line-height: 14px;
   color: #5d5b6a;
