@@ -1,7 +1,7 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
-  padding: 40px 60px;
+  padding: 40px 80px;
   border: 1px solid #888888;
   border-radius: 5px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -21,31 +21,29 @@
   bottom: 70px;
   left: 290px;
   border: 1px solid #888888;
-  color: #588da8;
+  color: #2196f2;
   transition: all 200ms ease-in-out;
 }
 .currentLocationButton:hover {
   cursor: pointer;
   color: white;
-  background: #588da8;
+  background: #2196f2;
 }
 
 .listGroupCities {
   font-size: 10px;
   margin-top: -60px;
-}
-
-.row1 {
-  text-align: left;
-  font-size: 22px;
-  color: #588da8;
-  font-weight: 900;
+  margin-left: 0px;
 }
 
 h1 {
-  color: #588da8;
+  color: #2196f2;
   font-weight: 900;
   font-size: 50px;
+}
+
+h2 {
+  margin-top: -35px;
 }
 
 h2,
@@ -54,33 +52,27 @@ h3 {
   font-size: 20px;
 }
 
-.row2 {
-  margin-top: 30px;
+.weatherInformation {
+  margin-top: 5px;
 }
 
 .currentDegrees {
   font-size: 80px;
-  color: #588da8;
-  padding-right: 30px;
-  line-height: 20px;
+  color: #2196f2;
 }
 
 .units {
   font-size: 18px;
+  color: #2196f2;
   position: relative;
-}
-
-.main-icon {
-  position: relative;
-  left: 60px;
+  bottom: 40px;
+  left: 5px;
 }
 
 .list-group-information {
-  margin-left: -50px;
-  line-height: 10px;
-  border-left: 5px solid #588da8;
+  line-height: 14px;
   color: #5d5b6a;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .open-source-code {

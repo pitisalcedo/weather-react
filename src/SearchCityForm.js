@@ -11,6 +11,7 @@ export default function SearchCityForm() {
             type="text"
             placeholder="Search..."
             autoComplete="off"
+            autoFocus="on"
           />
 
           <button
