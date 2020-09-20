@@ -13,7 +13,7 @@ export default function Information(props) {
       wind: response.data.wind.speed,
       city: response.data.name,
       humidity: response.data.main.humidity,
-      icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      icon: response.data.weather[0].icon,
       description: response.data.weather[0].description,
       feelsLike: response.data.main.feels_like,
       date: new Date(response.data.dt * 1000),

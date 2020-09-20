@@ -58,13 +58,17 @@ h3 {
 
 .units {
   font-size: 18px;
-  color: #2196f2;
+  text-decoration: none;
+  color: #5d5b6a;
   position: relative;
   bottom: 40px;
   left: 5px;
 }
 
-img {
+canvas {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: -20px;
 }
 
 .list-group-information {
