@@ -77,6 +77,15 @@ canvas {
   font-size: 16px;
 }
 
+.WeatherForecast {
+  text-align: center;
+}
+
+.WeatherForecast canvas {
+  display: block;
+  margin: 5px auto;
+}
+
 .open-source-code {
   position: relative;
   top: 80px;
