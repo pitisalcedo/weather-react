@@ -12,19 +12,14 @@
 
 .go-button {
   position: relative;
+  left: 160px;
   bottom: 30px;
-  left: 250px;
-}
-
-.currentLocationButton {
-  position: relative;
-  bottom: 70px;
-  left: 290px;
   border: 1px solid #888888;
   color: #2196f2;
   transition: all 200ms ease-in-out;
 }
-.currentLocationButton:hover {
+
+.go-button:hover {
   cursor: pointer;
   color: white;
   background: #2196f2;
@@ -32,8 +27,8 @@
 
 .listGroupCities {
   font-size: 10px;
-  margin-top: -60px;
-  margin-left: 0px;
+  position: relative;
+  top: 80px;
 }
 
 h1 {
