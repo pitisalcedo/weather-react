@@ -33,7 +33,6 @@
 
 h1 {
   color: #2196f2;
-  font-weight: 900;
   font-size: 50px;
 }
 
@@ -82,8 +81,17 @@ h3 {
   margin-top: 20px;
 }
 
-.WeatherForecastPreview {
-  margin: 20px auto;
+.WeatherForecastHour {
+  margin-top: 20px;
+}
+
+.WeatherForecastIcon {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.WeatherForecastTemp {
+  margin-bottom: 20px;
 }
 
 .open-source-code {
