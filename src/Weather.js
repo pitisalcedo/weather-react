@@ -20,7 +20,7 @@ export default function Weather(props) {
               {Math.round(props.data.temperature)}
             </span>
             <span className="units">
-              <a href="/" className="text-reset" className="active">
+              <a href="/" className="text-reset active">
                 °F
               </a>{" "}
               |{" "}
