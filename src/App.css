@@ -65,7 +65,7 @@ h3 {
   left: 5px;
 }
 
-canvas {
+.WeatherIconMain {
   display: inline-block;
   margin-top: 10px;
   margin-left: -20px;
@@ -79,11 +79,11 @@ canvas {
 
 .WeatherForecast {
   text-align: center;
+  margin-top: 20px;
 }
 
-.WeatherForecast canvas {
-  display: block;
-  margin: 5px auto;
+.WeatherForecastPreview {
+  margin: 20px auto;
 }
 
 .open-source-code {
