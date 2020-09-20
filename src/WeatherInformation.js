@@ -1,13 +1,13 @@
 import React, { useState } from "react";
+import CurrentDate from "./CurrentDate";
 import axios from "axios";
 import "./App.css";
 
 export default function WeatherInformation(props) {
-  const [ready, setReady] = useState(false);
-  const [weatherData, setWeatherData] = useState({});
+  const [weatherData, setWeatherData] = useState({ ready: false });
   function handleResponse(response) {
-    setReady(true);
     setWeatherData({
+      ready: true,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       city: response.data.name,
@@ -15,17 +15,19 @@ export default function WeatherInformation(props) {
       icon: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
       description: response.data.weather[0].description,
       feelsLike: response.data.main.feels_like,
+      date: new Date(response.data.dt * 1000),
     });
   }
 
-  if (ready) {
+  if (weatherData.ready) {
     return (
       <div className="weatherInformation">
         <div className="row">
           <div className="col">
             <h1>{weatherData.city}</h1>
-            <h2>Monday, August 17</h2>
-            <h3>17:00</h3>
+            <h2>
+              <CurrentDate date={weatherData.date} />
+            </h2>
           </div>
         </div>
         <div className="row">
