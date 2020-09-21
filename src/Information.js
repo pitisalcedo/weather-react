@@ -46,7 +46,7 @@ export default function Information(props) {
                 class="form-control form-control-lg"
                 type="text"
                 onChange={handleChange}
-                placeholder="Search..."
+                placeholder="Search City"
                 autoComplete="off"
                 autoFocus="on"
               />
@@ -64,6 +64,7 @@ export default function Information(props) {
           </form>
         </div>
         <Weather data={weatherData} />
+        Forecast | {weatherData.city}
         <WeatherForecast city={weatherData.city} />
       </div>
     );

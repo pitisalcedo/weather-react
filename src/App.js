@@ -10,7 +10,6 @@ function App() {
       <header className="App-header">
         <Cities />
         <Information city="Chicago" />
-
         <Footer />
       </header>
     </div>

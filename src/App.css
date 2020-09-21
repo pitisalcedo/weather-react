@@ -1,7 +1,7 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
-  padding: 40px 80px;
+  padding: 20px 60px;
   border: 1px solid #888888;
   border-radius: 5px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -72,6 +72,7 @@ h3 {
 
 .list-group-information {
   line-height: 14px;
+  text-align: center;
   color: #5d5b6a;
   font-size: 16px;
 }
@@ -96,7 +97,7 @@ h3 {
 
 .open-source-code {
   position: relative;
-  top: 80px;
+  top: 60px;
   text-align: center;
   font-size: 14px;
 }
