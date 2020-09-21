@@ -22,7 +22,7 @@ export default function Weather(props) {
           <WeatherIcon code={props.data.icon} />
         </div>
         <div className="col-6">
-          <ul className="list-group-information list-group-flush">
+          <ul className="listGroupInformation list-group-flush">
             <li className="list-group-item bg-transparent">
               <span className="text-capitalize">{props.data.description}</span>
             </li>

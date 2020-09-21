@@ -1,7 +1,7 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
-  padding: 20px 60px;
+  padding: 30px 60px;
   border: 1px solid #888888;
   border-radius: 5px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -25,10 +25,8 @@
   background: #2196f2;
 }
 
-.listGroupCities {
-  font-size: 10px;
-  position: relative;
-  top: 80px;
+.Weather {
+  margin-top: -50px;
 }
 
 h1 {
@@ -44,10 +42,6 @@ h2,
 h3 {
   color: #5d5b6a;
   font-size: 20px;
-}
-
-.weatherInformation {
-  margin-top: 5px;
 }
 
 .currentDegrees {
@@ -70,7 +64,7 @@ h3 {
   margin-left: -20px;
 }
 
-.list-group-information {
+.listGroupInformation {
   line-height: 14px;
   text-align: center;
   color: #5d5b6a;
